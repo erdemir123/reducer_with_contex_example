@@ -6,7 +6,7 @@ import Cart from "../components/Cart"
 const Card = () => {
     const [state,dispatch]=useContext(CardContext)
   return (
-    <div>
+    <div style={{display:"flex", justifyContent:"center", alignItems:"center",gap:"1rem"}}>
         {state.map(item=> <Cart item={item}/>)}
     </div>
   )
