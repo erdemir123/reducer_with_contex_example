@@ -1,0 +1,14 @@
+export const initialState = [];
+
+export const reducer = (state, action) => {
+  switch (action.type) {
+    case "ADD":
+      return [...state, action.payload];
+    case "REMOVE":
+      const newArr = [...state.filter(produc=>produc.id!== action.payload)];
+      return newArr;
+
+    default:
+      break;
+  }
+};
