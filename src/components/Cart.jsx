@@ -12,7 +12,7 @@ const Cart = ({ item }) => {
   return (
     <div>
       <Card
-        style={{ width: "18rem", display: "flex", justifyContent: "center" }}
+        style={{ width: "18rem", display: "flex", justifyContent: "center"}}
       >
         <Card.Img variant="top" src={item.url} />
         <Card.Body style={{ margin: "0 auto" }}>
