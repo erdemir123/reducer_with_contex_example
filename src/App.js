@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Store />}/>
-        <Route path='/card' element={<Card />}/>
+        <Route path='/sepet' element={<Card />}/>
       </Routes>
     </MainContext>
   );
